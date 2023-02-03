@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlaneExit : MonoBehaviour
 {
+    public GameObject PlaneControllerScript;
     public GameObject vehicleCam;
     public GameObject thePlayer;
     public GameObject liveVehicle;
     public GameObject entryTrig;
+    public GameObject planeHUD;
     
     void Update()
     {
@@ -15,9 +17,9 @@ public class PlaneExit : MonoBehaviour
             {
                 thePlayer.SetActive(true);
                 vehicleCam.SetActive(false);
-                /*
+                
                 liveVehicle.GetComponent<PlaneController>().enabled = false;
-                liveVehicle.GetComponent<PlaneUserControll>().enabled = false;
+                /*liveVehicle.GetComponent<PlaneUserControll>().enabled = false;
                 liveVehicle.GetComponent<PlaneAudio>().enabled = false;*/
                 thePlayer.transform.parent = null;
                 StartCoroutine(EnterAgain());
@@ -29,6 +31,7 @@ public class PlaneExit : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         entryTrig.GetComponent<BoxCollider>().enabled = true;
         this.gameObject.SetActive(false);
+        planeHUD.SetActive(false);
 
     }
 }

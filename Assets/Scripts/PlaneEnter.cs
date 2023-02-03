@@ -11,6 +11,8 @@ public class PlaneEnter : MonoBehaviour
     public GameObject liveVehicle;
     public bool canEnter = false;
     public GameObject exitTrig;
+    public GameObject planeHUD;
+    
 
     // Update is called once per frame
     void Update()
@@ -23,9 +25,9 @@ public class PlaneEnter : MonoBehaviour
                 //this.gameObject.GetComponent<BoxCollider>().enabled = false;
                 vehicleCam.SetActive(true);
                 thePlayer.SetActive(false);
-                /*
+            
                 liveVehicle.GetComponent<PlaneController>().enabled = true;
-                liveVehicle.GetComponent<PlaneUserControll>().enabled = true;
+                /*liveVehicle.GetComponent<PlaneUserControll>().enabled = true;
                 liveVehicle.GetComponent<PlaneAudio>().enabled = true;*/
                 canEnter = false;
                 thePlayer.transform.parent = this.gameObject.transform; // attach the player to the current object
@@ -53,5 +55,6 @@ public class PlaneEnter : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         exitTrig.SetActive(true);
+        planeHUD.SetActive(true);
     }
 }

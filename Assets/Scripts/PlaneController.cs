@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlaneController : MonoBehaviour
 {
@@ -19,14 +20,18 @@ public class PlaneController : MonoBehaviour
     private float pitch;
     private float yaw;  
 
+    public GameObject exitTrig;
+
     private float responseModifier {
     get {
         return (rb.mass / 10f) * responsiveness;
     }
+    
 }
 
 Rigidbody rb;
 AudioSource engineSound;
+[SerializeField] TextMeshProUGUI hud;
 
 private void Awake () 
 {
@@ -47,6 +52,7 @@ private void handleInputs()
 
 private void Update() {
     handleInputs();
+    UpdateHUD();
     engineSound.volume = throttle * 0.01f;
 }
 
@@ -59,6 +65,10 @@ private void FixedUpdate() {
 
     rb.AddForce(Vector3.up * rb.velocity.magnitude * lift);
 }
-
+    private void UpdateHUD() {
+        hud.text = "Throttle " + throttle.ToString("F0") + "%\n";
+        hud.text += "Airspeed " + (rb.velocity.magnitude * 3.6f).ToString("F0") + "km/h\n";
+        hud.text += "Altitude " + transform.position.y.ToString("F0") + "m";
+    }
 
 }

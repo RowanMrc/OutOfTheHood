@@ -4,6 +4,7 @@ namespace Invector.vCharacterController
 {
     public class vThirdPersonController : vThirdPersonAnimator
     {
+
         public virtual void ControlAnimatorRootMotion()
         {
             if (!this.enabled) return;
@@ -12,6 +13,7 @@ namespace Invector.vCharacterController
             {
                 transform.position = animator.rootPosition;
                 transform.rotation = animator.rootRotation;
+
             }
 
             if (useRootMotion)
@@ -123,6 +125,18 @@ namespace Invector.vCharacterController
                 animator.CrossFadeInFixedTime("Jump", 0.1f);
             else
                 animator.CrossFadeInFixedTime("JumpMove", .2f);
+        }
+
+        public virtual void Aim()
+        {
+            // trigger aim animations
+            animator.SetLayerWeight(1, 1f);
+        }
+
+        public virtual void AimReset()
+        {
+            // trigger aim animations
+            animator.SetLayerWeight(1, 0f);
         }
     }
 }

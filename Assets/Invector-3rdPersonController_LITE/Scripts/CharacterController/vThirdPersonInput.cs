@@ -21,6 +21,9 @@ namespace Invector.vCharacterController
         [HideInInspector] public vThirdPersonController cc;
         [HideInInspector] public vThirdPersonCamera tpCamera;
         [HideInInspector] public Camera cameraMain;
+        public GameObject aimCam;
+        public GameObject aimHUDCrosshair;
+        public bool aiming = false;
 
         #endregion
 
@@ -75,7 +78,11 @@ namespace Invector.vCharacterController
 
         protected virtual void InputHandle()
         {
-            MoveInput();
+            if (!aiming)
+            {
+                MoveInput();
+            }
+            
             CameraInput();
             SprintInput();
             StrafeInput();
@@ -88,6 +95,7 @@ namespace Invector.vCharacterController
             cc.input.x = Input.GetAxis(horizontalInput);
             cc.input.z = Input.GetAxis(verticallInput);
         }
+
 
         protected virtual void CameraInput()
         {
@@ -151,13 +159,21 @@ namespace Invector.vCharacterController
         protected virtual void AimInput()
         {
             if (Input.GetMouseButtonDown(1)){
+                aiming = true;
                 cc.Aim();
+                cc.input.x = 0;
+                cc.input.z = 0;
+                aimCam.SetActive(true);
+                aimHUDCrosshair.SetActive(true);
                 Debug.Log("Aim");
             }
 
             if (Input.GetMouseButtonDown(0))
             {
+                aiming = false;
                 cc.AimReset();
+                aimCam.SetActive(false);
+                aimHUDCrosshair.SetActive(false);
                 Debug.Log("AimReset");
             }
 

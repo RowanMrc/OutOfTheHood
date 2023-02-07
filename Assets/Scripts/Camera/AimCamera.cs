@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Maincamera : MonoBehaviour
+public class AimCamera : MonoBehaviour
 {
 
     private const float Y_ANGLE_MIN = 0.0f;
@@ -35,3 +35,4 @@ public class Maincamera : MonoBehaviour
     }
 
 }
+   

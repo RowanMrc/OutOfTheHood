@@ -1,28 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class AimCamera : MonoBehaviour
 {
 
-    private const float Y_ANGLE_MIN = 0.0f;
-    private const float Y_ANGLE_MAX = 50.0f;
+    [SerializeField] public LayerMask aimColliderLayerMask = new LayerMask();
+    [SerializeField] public Transform debugTransform;
 
     public Transform target;
     public float smoothSpeed = 0.125f;
     public Vector3 locationOffset;
     public Vector3 rotationOffset;
-
-    private float currentX = 0.0f;
-    private float currentY = 20.0f;
-
-    private void Update()
-    {
-        currentX += Input.GetAxis("Mouse X");
-        currentY += Input.GetAxis("Mouse Y");
-
-        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
-    }
 
     void FixedUpdate()
     {
@@ -31,8 +21,19 @@ public class AimCamera : MonoBehaviour
         transform.position = smoothedPosition;
 
         Quaternion desiredrotation = target.rotation * Quaternion.Euler(rotationOffset);
-        transform.localRotation = Quaternion.Euler(currentY, currentX, smoothSpeed);
+        Quaternion smoothedrotation = Quaternion.Lerp(transform.rotation, desiredrotation, smoothSpeed);
+        transform.rotation = smoothedrotation;
     }
+
+    /* void VisualTarget()
+    {
+
+        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, 999f, aimColliderLayerMask))
+        {
+            debugTransform.position = raycastHit.point;
+        }
+    }*/
 
 }
    

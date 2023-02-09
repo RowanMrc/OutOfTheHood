@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Invector.vCharacterController
 {
@@ -13,6 +14,10 @@ namespace Invector.vCharacterController
         public KeyCode strafeInput = KeyCode.Tab;
         public KeyCode sprintInput = KeyCode.LeftShift;
         public KeyCode aimInput = KeyCode.Mouse1;
+        public GameObject footstepsSound;
+        public AudioSource jumpSound;
+        public AudioSource shotSound;
+
 
         [Header("Camera Input")]
         public string rotateCameraXInput = "Mouse X";
@@ -21,9 +26,17 @@ namespace Invector.vCharacterController
         [HideInInspector] public vThirdPersonController cc;
         [HideInInspector] public vThirdPersonCamera tpCamera;
         [HideInInspector] public Camera cameraMain;
+
+        [Header("Weapon Related")]
         public GameObject aimCam;
         public GameObject aimHUDCrosshair;
         public bool aiming = false;
+        [SerializeField] public Transform pfBulletProjectile;
+        [SerializeField] public Transform spawnBulletProjectile;
+        [SerializeField] public LayerMask aimColliderLayerMask = new LayerMask();
+        [SerializeField] public Transform debugTransform;
+        public GameObject sphereCrosshair;
+        Vector3 mouseWorldPosition = Vector3.zero;
 
         #endregion
 
@@ -44,6 +57,7 @@ namespace Invector.vCharacterController
         {
             InputHandle();                  // update the input methods
             cc.UpdateAnimator();            // updates the Animator Parameters
+            VisualTarget();
         }
 
         public virtual void OnAnimatorMove()
@@ -56,6 +70,7 @@ namespace Invector.vCharacterController
         protected virtual void InitilizeController()
         {
             cc = GetComponent<vThirdPersonController>();
+            jumpSound = GetComponent<AudioSource>();
 
             if (cc != null)
                 cc.Init();
@@ -81,6 +96,7 @@ namespace Invector.vCharacterController
             if (!aiming)
             {
                 MoveInput();
+                MoveInputSound();
             }
             
             CameraInput();
@@ -94,6 +110,18 @@ namespace Invector.vCharacterController
         {
             cc.input.x = Input.GetAxis(horizontalInput);
             cc.input.z = Input.GetAxis(verticallInput);
+          
+        }
+
+        public virtual void MoveInputSound()
+        {
+            if(Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+            {
+                footstepsSound.SetActive(true);
+            }else
+            {
+                footstepsSound.SetActive(false);
+            }
         }
 
 
@@ -152,31 +180,64 @@ namespace Invector.vCharacterController
         protected virtual void JumpInput()
         {
             if (Input.GetKeyDown(jumpInput) && JumpConditions())
+            {
                 cc.Jump();
+                jumpSound.Play();
+            }
+                
+
             
         }
 
         protected virtual void AimInput()
         {
+            
+
             if (Input.GetMouseButtonDown(1)){
                 aiming = true;
                 cc.Aim();
                 cc.input.x = 0;
                 cc.input.z = 0;
-                aimCam.SetActive(true);
-                aimHUDCrosshair.SetActive(true);
+                //aimCam.SetActive(true);
+                //aimHUDCrosshair.SetActive(true);
+                sphereCrosshair.SetActive(true);
                 Debug.Log("Aim");
             }
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && aiming)
             {
-                aiming = false;
+                Vector2 spawnPos = Camera.main.ViewportToWorldPoint(new Vector2(0.5f, 0.5f));
+                Vector3 aimDir = (mouseWorldPosition - spawnBulletProjectile.position).normalized;
+                Instantiate(pfBulletProjectile,spawnBulletProjectile.position, Quaternion.LookRotation(aimDir, Vector3.up));
+                shotSound.Play();
+                /*aiming = false;
                 cc.AimReset();
                 aimCam.SetActive(false);
                 aimHUDCrosshair.SetActive(false);
+                Debug.Log("AimReset");*/
+            }
+
+            if (Input.GetKey("m"))
+            {
+                aiming = false;
+                cc.AimReset();
+                //aimCam.SetActive(false);
+                //aimHUDCrosshair.SetActive(false);
+                sphereCrosshair.SetActive(false);
                 Debug.Log("AimReset");
             }
 
+        }
+
+        protected virtual void VisualTarget()
+        {
+          
+            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            if (Physics.Raycast( ray, out RaycastHit raycastHit, 999f, aimColliderLayerMask))
+            {
+                debugTransform.position = raycastHit.point;
+                mouseWorldPosition = raycastHit.point;
+            }
         }
 
         #endregion       

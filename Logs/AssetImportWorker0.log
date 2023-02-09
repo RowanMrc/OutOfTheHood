@@ -15,7 +15,7 @@ C:/Users/ilker/Desktop/OutOfTheHood
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61684
+50732
 Successfully changed project path to: C:/Users/ilker/Desktop/OutOfTheHood
 C:/Users/ilker/Desktop/OutOfTheHood
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/ilker/Desktop/OutOfTheHood
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6164] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3861326053 [EditorId] 3861326053 [Version] 1048832 [Id] WindowsEditor(7,Ilker-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20844] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 4084745010 [EditorId] 4084745010 [Version] 1048832 [Id] WindowsEditor(7,Ilker-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6164] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3861326053 [EditorId] 3861326053 [Version] 1048832 [Id] WindowsEditor(7,Ilker-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20844] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 4084745010 [EditorId] 4084745010 [Version] 1048832 [Id] WindowsEditor(7,Ilker-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.3f1 (55531d7fa82e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -62,46 +62,46 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   NVIDIA
     VRAM:     10067 MB
-    Driver:   31.0.15.2824
+    Driver:   31.0.15.2849
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006455 seconds.
-- Loaded All Assemblies, in  0.251 seconds
+Registered in 0.006105 seconds.
+- Loaded All Assemblies, in  0.285 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.205 seconds
+- Finished resetting the current domain, in  0.212 seconds
 Domain Reload Profiling:
-	ReloadAssembly (146ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (168ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (57ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
-				TypeCache.Initialize (97ms)
-					TypeCache.ScanAssembly (96ms)
+			SetupTypeCache (109ms)
+				TypeCache.Initialize (109ms)
+					TypeCache.ScanAssembly (107ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (163ms)
+			SetupLoadedEditorAssemblies (162ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,35 +111,9 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.041 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.840 seconds
+Refreshing native plugins compatible for Editor in 5.22 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\ilker\Desktop\OutOfTheHood\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <0da48681ced7494d83ae6a612d2206fc>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <83719566e1474cd8800c02cd178db127>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.0/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.0/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\ilker\Desktop\OutOfTheHood\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <0da48681ced7494d83ae6a612d2206fc>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
@@ -174,49 +148,44 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.988 seconds
+- Finished resetting the current domain, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (193ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (169ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		LoadAllAssembliesAndSetupDomain (843ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (668ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (776ms)
-				TypeCache.Initialize (362ms)
-					TypeCache.ScanAssembly (355ms)
-				ResolveRequiredComponents (11ms)
+			SetupTypeCache (616ms)
+				TypeCache.Initialize (270ms)
+					TypeCache.ScanAssembly (264ms)
+				ResolveRequiredComponents (10ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (813ms)
+			SetupLoadedEditorAssemblies (795ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (520ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (211ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-database is locked
-database is locked
-database is locked
-database is locked
-database is locked
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7234 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.7 MB). Loaded Objects now: 7817.
+Unloading 71 unused Assets / (3.7 MB). Loaded Objects now: 7818.
 Memory consumption went from 1.15 GB to 1.15 GB.
-Total: 5.432900 ms (FindLiveObjects: 0.762400 ms CreateObjectMapping: 0.251000 ms MarkObjects: 3.496300 ms  DeleteObjects: 0.922400 ms)
+Total: 14.762500 ms (FindLiveObjects: 1.521800 ms CreateObjectMapping: 1.032100 ms MarkObjects: 10.027800 ms  DeleteObjects: 2.178100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -231,12 +200,1262 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2392.292423 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Prefab/Car Black.prefab
-  artifactKey: Guid(738830bc793a24e46a0a17dce3f80225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 22670.932375 seconds.
+  path: Assets/russian_buildings/materials/rus_build_02.mat
+  artifactKey: Guid(408c3fb434337444683f1980cdc27570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Prefab/Car Black.prefab using Guid(738830bc793a24e46a0a17dce3f80225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedfcd54c84ea5f3f80f698cf1eb9eb7') in 0.659224 seconds 
-Number of asset objects unloaded after import = 268
+Start importing Assets/russian_buildings/materials/rus_build_02.mat using Guid(408c3fb434337444683f1980cdc27570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce319191b0c2f122676ce0fd8423be') in 4.226915 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/russian_buildings/materials/rus_build_11.mat
+  artifactKey: Guid(6171ebe13a09d7d4280e545cece8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_11.mat using Guid(6171ebe13a09d7d4280e545cece8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f4f3bcc7554248329845310e84496') in 0.024765 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/russian_buildings/materials/rus_build_12.mat
+  artifactKey: Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_12.mat using Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba17f7c519ef1976feabc650231ffcf') in 0.017830 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/russian_buildings/materials/rus_build_07.mat
+  artifactKey: Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_07.mat using Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c382275f02a5d574e8d03a70bf31c73f') in 0.013225 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_03.mat
+  artifactKey: Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_lod_03.mat using Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c7c7252f777417531953ed1f27d0b0') in 0.041945 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_02.mat
+  artifactKey: Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_lod_02.mat using Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d24b7e4818a1f1480032471a67004b') in 0.014698 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.489058 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_2et_01a.prefab
+  artifactKey: Guid(e660989e3cd39b0439ca14e2c7369938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_2et_01a.prefab using Guid(e660989e3cd39b0439ca14e2c7369938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf184c8b1619a882dc4a33b67691a926') in 0.031555 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03e.prefab
+  artifactKey: Guid(d90ea0162bb47b54d903c852a6d0f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03e.prefab using Guid(d90ea0162bb47b54d903c852a6d0f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cacdbdaa996c445fc109db66554fb9a') in 0.022390 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_01.prefab
+  artifactKey: Guid(d671b2b3dae0c254ea0925e69cfa667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_01.prefab using Guid(d671b2b3dae0c254ea0925e69cfa667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b7f10b27811871fb1aba40ae91bb5') in 0.017302 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_03a.prefab
+  artifactKey: Guid(b65f39ca66ec7fc4e8b39ef856a7125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_03a.prefab using Guid(b65f39ca66ec7fc4e8b39ef856a7125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8bb9fc81d30f467d71292eacc678ae') in 0.017239 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_06.prefab
+  artifactKey: Guid(d0942da8e0756d64fa0dc5f970badb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_06.prefab using Guid(d0942da8e0756d64fa0dc5f970badb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ca57904129f612f79d0838f2ed266') in 0.016649 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03.prefab
+  artifactKey: Guid(30e869da5c345464eb905a3dfb869ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03.prefab using Guid(30e869da5c345464eb905a3dfb869ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfbc19e8abd8be610777f101c73dd7b') in 0.020476 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03b.prefab
+  artifactKey: Guid(1f96f1899d54a8446b48d5a525237154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03b.prefab using Guid(1f96f1899d54a8446b48d5a525237154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782470121a86c857918c933afdeecb16') in 0.018373 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_03.prefab
+  artifactKey: Guid(7d2a3e6b10ff754459b3f619a0b22e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_03.prefab using Guid(7d2a3e6b10ff754459b3f619a0b22e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4622b139e2dce4e7d920262a64156806') in 0.018242 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03c.prefab
+  artifactKey: Guid(af379eb3bb200574a80c24d641fcf853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03c.prefab using Guid(af379eb3bb200574a80c24d641fcf853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa72adb6f2068b5b4fb75f65584fba3d') in 0.018083 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_4et_01.prefab
+  artifactKey: Guid(74f04d972a0675c45ac56c3a8e0f30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_4et_01.prefab using Guid(74f04d972a0675c45ac56c3a8e0f30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1dd3ba4d2aa5fa7c6442d2ae136c1b') in 0.017565 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 25.938842 seconds.
+  path: Assets/russian_buildings/materials/rus_build_02_MaskMap.png
+  artifactKey: Guid(6258337bb64403c4db296c79b8397a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_02_MaskMap.png using Guid(6258337bb64403c4db296c79b8397a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5067851bcc93eb232684d8987919eb4c') in 0.031030 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/russian_buildings/materials/rus_build_11_MaskMap.png
+  artifactKey: Guid(b060874bfeb894c498f806931702842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_11_MaskMap.png using Guid(b060874bfeb894c498f806931702842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d0a761847e78092d3b218030b17e56') in 0.007365 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/russian_buildings/materials/rus_build_06_MaskMap.png
+  artifactKey: Guid(e5d7b168abe203f4192c6369d10bccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_06_MaskMap.png using Guid(e5d7b168abe203f4192c6369d10bccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8998de42ac98ff7d0804e6d814f28bc') in 0.007490 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/materials/rus_build_17_MaskMap.png
+  artifactKey: Guid(b25169a719e4a954bb43eb9124bbb457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_17_MaskMap.png using Guid(b25169a719e4a954bb43eb9124bbb457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94540544dee1c6d02021bc130f1d367c') in 0.006509 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/materials/rus_build_04_MaskMap.png
+  artifactKey: Guid(df7a86387a0f0504d9e25cefea8d7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_04_MaskMap.png using Guid(df7a86387a0f0504d9e25cefea8d7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7714ceee42dbd7f071794a0f7e5cbbd1') in 0.008213 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/materials/rus_build_16_MaskMap.png
+  artifactKey: Guid(fc66b3ca4ad38f243bae6e314a35c84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_16_MaskMap.png using Guid(fc66b3ca4ad38f243bae6e314a35c84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a232113297032bbbe44178dbcc90c9d') in 0.006647 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.119966 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_02_MaskMap.png
+  artifactKey: Guid(e00f011d3c3afca459daa5e1140abcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_lod_02_MaskMap.png using Guid(e00f011d3c3afca459daa5e1140abcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba0df7b0fb7a7053c8e44c61886fc55') in 0.006350 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.677672 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_2et_01a.obj
+  artifactKey: Guid(0bb22f4a8d8a62d408509a4c4034364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_2et_01a.obj using Guid(0bb22f4a8d8a62d408509a4c4034364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892a776c3afd2ba9f4fa90c08e16d4be') in 0.062882 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_5et_02.obj
+  artifactKey: Guid(8c4e516b1dc467b4f8253549a200210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_5et_02.obj using Guid(8c4e516b1dc467b4f8253549a200210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c58948cb4e6dafc160843754b0c74be') in 0.021994 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_9et_01.obj
+  artifactKey: Guid(250affde3a4593740a396c1a11352a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_9et_01.obj using Guid(250affde3a4593740a396c1a11352a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b38e217f6a28af085be6076b19f43ff') in 0.019095 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_5et_05.obj
+  artifactKey: Guid(a5b66509842cc304a96cdd0ad77debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_5et_05.obj using Guid(a5b66509842cc304a96cdd0ad77debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab1fda2414264d24cf35d0f30ba055e') in 0.022872 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_2et_01c.obj
+  artifactKey: Guid(11a0f8575da77c54a8c6fd4d31acbdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_2et_01c.obj using Guid(11a0f8575da77c54a8c6fd4d31acbdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df07fa6e4ed02855cdca89fc6836bf3b') in 0.020518 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.006746 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_4et_roof_col.obj
+  artifactKey: Guid(c4ecc03c96be1ff4f9b1103a902937cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_4et_roof_col.obj using Guid(c4ecc03c96be1ff4f9b1103a902937cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320772332783d1b1ba5e14a874594e5e') in 0.020761 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_01.obj
+  artifactKey: Guid(2db71832e28ae7d448154b0b3412d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_01.obj using Guid(2db71832e28ae7d448154b0b3412d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6d8552f0c51d575200fe2cb1e43741') in 0.022053 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_02.obj
+  artifactKey: Guid(956b56498616a9548ba1cb8c2f30ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_02.obj using Guid(956b56498616a9548ba1cb8c2f30ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b97f37ecc1f16740038d10a6e228400') in 0.016880 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.982016 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD2.obj
+  artifactKey: Guid(f3173e163a938ad449ddb3959ee61b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD2.obj using Guid(f3173e163a938ad449ddb3959ee61b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07737e9daace232b6dd7963f3238bfca') in 0.021125 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD1.obj
+  artifactKey: Guid(78439a930730cd54c81a024e7f5e4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD1.obj using Guid(78439a930730cd54c81a024e7f5e4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe51a36900c36e3266dd4b688370335') in 0.020050 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD1.obj
+  artifactKey: Guid(24c8d1728b53c8547b79d8b69ce152ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD1.obj using Guid(24c8d1728b53c8547b79d8b69ce152ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f9e914a69d39ecc2a1ba98267ece95') in 0.021487 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_01a_LOD2.obj
+  artifactKey: Guid(01f485b9e61dc0047a7e9b76d82b2644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_01a_LOD2.obj using Guid(01f485b9e61dc0047a7e9b76d82b2644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8747d12ceebd09b35113ab41eb581d6c') in 0.020724 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03_LOD2.obj
+  artifactKey: Guid(389738a94f15fe849917f66a0748352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03_LOD2.obj using Guid(389738a94f15fe849917f66a0748352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81763b8d79062a19e3a132dc7f31a9ce') in 0.026401 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01_LOD1.obj
+  artifactKey: Guid(a718571e5356616488bf14400bf9ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01_LOD1.obj using Guid(a718571e5356616488bf14400bf9ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50823d16f80dccb6e9f235442ba6d63d') in 0.025773 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj
+  artifactKey: Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj using Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849da6d902f130c8f81d5f931fbca800') in 0.021635 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03_LOD1.obj
+  artifactKey: Guid(184809d6ca1ef2f4bbcb3b48012ffa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03_LOD1.obj using Guid(184809d6ca1ef2f4bbcb3b48012ffa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff78742a5105906981af46d08ccf42f') in 0.021939 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj
+  artifactKey: Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj using Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2195da8a2dffee9c9458576f844775') in 0.019830 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj
+  artifactKey: Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj using Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd58695dcd2e2f924262138fc6d19ba') in 0.021970 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj
+  artifactKey: Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj using Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51818d1b8fec65d53d651e43d04cade') in 0.021607 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01_LOD2.obj
+  artifactKey: Guid(cc31e9655c0f7c54d8b562abffc4bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01_LOD2.obj using Guid(cc31e9655c0f7c54d8b562abffc4bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb098b5f45c104dbb56dad5d2b80b0') in 0.022962 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03b_LOD2.obj
+  artifactKey: Guid(6f40be15404c06d45949f0aec91fdd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03b_LOD2.obj using Guid(6f40be15404c06d45949f0aec91fdd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb05153e090e32e776fee1111e01f1d') in 0.020406 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01b_LOD2.obj
+  artifactKey: Guid(28ddc8f7cd892d04caf59071aedc064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01b_LOD2.obj using Guid(28ddc8f7cd892d04caf59071aedc064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15a3967cfde0f92bf02d371eb63049e') in 0.021850 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_05_LOD2.obj
+  artifactKey: Guid(6d5fc8075cb1fd64aa5e4a629ee5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_05_LOD2.obj using Guid(6d5fc8075cb1fd64aa5e4a629ee5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786f487f0b3fc6103d734160eac89d4') in 0.020960 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD2.obj
+  artifactKey: Guid(ccdf453df53873d4cac6a19d3deff07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD2.obj using Guid(ccdf453df53873d4cac6a19d3deff07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e244d9f5bbc87782aa9b387677716d') in 0.019837 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03_LOD1.obj
+  artifactKey: Guid(a1f1657bf674b014391e012a4121b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03_LOD1.obj using Guid(a1f1657bf674b014391e012a4121b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fc50bd56e209c7da3e0edaa24a65e5') in 0.021638 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01a_LOD1.obj
+  artifactKey: Guid(4b030011196008f4d9e6ef18fe7fba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01a_LOD1.obj using Guid(4b030011196008f4d9e6ef18fe7fba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97985a562451202ee974a089b2cf4c21') in 0.021261 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01a_LOD1.obj
+  artifactKey: Guid(62c7dea1a7708cb40b4f7d95dc431d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01a_LOD1.obj using Guid(62c7dea1a7708cb40b4f7d95dc431d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b212aed484c7cf84ad8642ed7bd223') in 0.024969 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.608690 seconds.
+  path: Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_01a.obj
+  artifactKey: Guid(9e0fb897119398d43b365fe15b3083c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_01a.obj using Guid(9e0fb897119398d43b365fe15b3083c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c8d797989e602e8f1d821e81a3824') in 0.031779 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_05.obj
+  artifactKey: Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_05.obj using Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22928965cefdb38b3e543dbfe685c3d') in 0.032964 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_04.obj
+  artifactKey: Guid(8450bc07d474d58478859b2dc286e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_04.obj using Guid(8450bc07d474d58478859b2dc286e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956f7eae5f729917d3f08767aeb3a2d9') in 0.034771 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.214609 seconds.
+  path: Assets/russian_buildings/textures/rus_build_01_h.png
+  artifactKey: Guid(c308182866d078048836bceee131f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_01_h.png using Guid(c308182866d078048836bceee131f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4ffbc488cc5a4fe6b4c5131166a4dc') in 0.008269 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/textures/rus_build_06_h.png
+  artifactKey: Guid(d4c62de7fe40267429e57431572ebb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_06_h.png using Guid(d4c62de7fe40267429e57431572ebb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d8ec367f38e8a883de57cb6061e37a') in 0.007906 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/textures/rus_build_10.png
+  artifactKey: Guid(5a125ecd9eb58a84fbedcf7569256ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_10.png using Guid(5a125ecd9eb58a84fbedcf7569256ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d12d24ee8750e1e98c7125f1a2d96c') in 0.007095 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/textures/rus_build_15.png
+  artifactKey: Guid(348b7b1e9b718254eb222c50d2f1b370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_15.png using Guid(348b7b1e9b718254eb222c50d2f1b370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caee9bcef464650ae476ebc164b3b67') in 0.007250 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/textures/rus_build_15_n.png
+  artifactKey: Guid(0ea9638d8573c2d4996a9946202fca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_15_n.png using Guid(0ea9638d8573c2d4996a9946202fca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4894849518152e0d55f6d6b7b2619427') in 0.011015 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/textures/rus_build_11_s.png
+  artifactKey: Guid(d25ee5b813be1c94299c66797d46b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_11_s.png using Guid(d25ee5b813be1c94299c66797d46b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f7b38b03e21e4dcb6e1b9fc329ee51') in 0.008291 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/textures/rus_build_17.png
+  artifactKey: Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_17.png using Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b736b32b9254465d3b7dd341a105ad30') in 0.007738 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/russian_buildings/textures/rus_build_11_h.png
+  artifactKey: Guid(db1d4d96b3a27984bad80d2025da46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_11_h.png using Guid(db1d4d96b3a27984bad80d2025da46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b1bb0f21056f78f54fc01c69c32a55') in 0.011087 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/russian_buildings/textures/rus_build_12.png
+  artifactKey: Guid(2281181ba06c0bc449508d12e4c39e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_12.png using Guid(2281181ba06c0bc449508d12e4c39e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf52b78f12251e82d14770d341e6aff') in 0.008873 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/russian_buildings/textures/rus_build_13.png
+  artifactKey: Guid(15ddd6bb39b9c484f9e34dd0b29568bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_13.png using Guid(15ddd6bb39b9c484f9e34dd0b29568bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c298070799120f932c25bcf9af2f9f07') in 0.008183 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/textures/rus_build_08_s.png
+  artifactKey: Guid(2f20fd39e8116d74a882d1b04bde5036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_08_s.png using Guid(2f20fd39e8116d74a882d1b04bde5036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275bf93f380cb63bcb8232c6096718ae') in 0.008944 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/russian_buildings/textures/rus_build_15_h.png
+  artifactKey: Guid(61e00fc30250fc14ab813fb1974825d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_15_h.png using Guid(61e00fc30250fc14ab813fb1974825d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac01313884df0438621cd731a3c6407') in 0.007824 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/russian_buildings/textures/rus_build_LOD_03_s.png
+  artifactKey: Guid(ca7b94fc37872004e9f2768ea044e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/textures/rus_build_LOD_03_s.png using Guid(ca7b94fc37872004e9f2768ea044e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3adb5b7310f664fd269287ebd21b364') in 0.007938 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 386.134736 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_2et_01a.prefab
+  artifactKey: Guid(e660989e3cd39b0439ca14e2c7369938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_2et_01a.prefab using Guid(e660989e3cd39b0439ca14e2c7369938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fe5648bcec20e1868ce88a2eb8a0a8') in 0.296822 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03e.prefab
+  artifactKey: Guid(d90ea0162bb47b54d903c852a6d0f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03e.prefab using Guid(d90ea0162bb47b54d903c852a6d0f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e631bd661d51172181d469fe275d0c') in 0.022457 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_01.prefab
+  artifactKey: Guid(d671b2b3dae0c254ea0925e69cfa667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_01.prefab using Guid(d671b2b3dae0c254ea0925e69cfa667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715384c8b0661fa49fdc1d6731ad8497') in 0.018580 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_02.prefab
+  artifactKey: Guid(c44a70c086ff8184e8229c420d455f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_02.prefab using Guid(c44a70c086ff8184e8229c420d455f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd0ba1610cfb9b5967b5acb4d8db35e') in 0.019282 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_2et_01b.prefab
+  artifactKey: Guid(a121d32ef0a226a459036bdbc16455ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_2et_01b.prefab using Guid(a121d32ef0a226a459036bdbc16455ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b0acf0639aebb56bce3713125ad40b') in 0.023325 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_2et_01c.prefab
+  artifactKey: Guid(cfe372357392bfc49a631f6dfb62bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_2et_01c.prefab using Guid(cfe372357392bfc49a631f6dfb62bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d09e25a3e36d75743ca1dadc7b06602') in 0.017958 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_04.prefab
+  artifactKey: Guid(408af9f2b6062b4449d4b84d945fdd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_04.prefab using Guid(408af9f2b6062b4449d4b84d945fdd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcccc172c9e30be1ad04044f4cf16113') in 0.017657 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_02a.prefab
+  artifactKey: Guid(13e16b54a36630b47a45a61f063ef373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_02a.prefab using Guid(13e16b54a36630b47a45a61f063ef373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847a351b22665dea9199b10b5754a4b9') in 0.017711 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_03b.prefab
+  artifactKey: Guid(5eb69a259abef0b44b353ae0837d5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_03b.prefab using Guid(5eb69a259abef0b44b353ae0837d5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70668e4d6274b5051d9164bce62e1f8') in 0.016443 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_02.prefab
+  artifactKey: Guid(5f233c5bb4cb5ba41b2d790aede3bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_02.prefab using Guid(5f233c5bb4cb5ba41b2d790aede3bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742fc3988deed15d729c001f0c114b07') in 0.017262 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_01a.prefab
+  artifactKey: Guid(6f1e34f627ea823418d94ad9986dd468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_01a.prefab using Guid(6f1e34f627ea823418d94ad9986dd468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b55e0ddd3f25237048082003e52bfc') in 0.019487 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_01b.prefab
+  artifactKey: Guid(f8c03799d60ef1e4696251922cde2e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_01b.prefab using Guid(f8c03799d60ef1e4696251922cde2e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449c864e62e8ba6079c779fd1f846843') in 0.017980 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_05.prefab
+  artifactKey: Guid(462efeb944acff8449ca0adecdc9842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_05.prefab using Guid(462efeb944acff8449ca0adecdc9842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445e7c4678b3ab509a856a5861265056') in 0.018879 seconds 
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_02a.prefab
+  artifactKey: Guid(8459d2d575caf3742b837875922c5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_02a.prefab using Guid(8459d2d575caf3742b837875922c5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c57647f9ee29fe0adf39756dca7a5e') in 0.018511 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 29.565236 seconds.
+  path: Assets/Towers_PBR/Ground/Ground.png
+  artifactKey: Guid(1be956f6b81bad444be9b5f3cc03289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Ground/Ground.png using Guid(1be956f6b81bad444be9b5f3cc03289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be26cdecebc56410e2ceedfe54e4850') in 0.021474 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Towers_PBR/Ground/Ground_R.png
+  artifactKey: Guid(24ec166eb8e949c4b9e465d82f7cae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Ground/Ground_R.png using Guid(24ec166eb8e949c4b9e465d82f7cae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e235a55e25e1010c8da59462962db9') in 0.008740 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.019371 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Materials/Metal_Tower_01.mat
+  artifactKey: Guid(72478db2846abf0458cc60f561d27402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Materials/Metal_Tower_01.mat using Guid(72478db2846abf0458cc60f561d27402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a65885888d0e899471de19ec8f133fe') in 0.046626 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.416862 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Glass_N.png
+  artifactKey: Guid(323a11e1dac9443408dce6774564dd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Glass_N.png using Guid(323a11e1dac9443408dce6774564dd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e668bcc38b129410653b14fe2606d70a') in 0.018814 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_AO.png
+  artifactKey: Guid(a8697d0da5594ef4c980fb8f72464583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_AO.png using Guid(a8697d0da5594ef4c980fb8f72464583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58295bb8dd22ed7ecff5c30afe33fc12') in 0.008662 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_R.png
+  artifactKey: Guid(609434e4346404947bfaf77a70f4ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_R.png using Guid(609434e4346404947bfaf77a70f4ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380409d6dddfb2ffa697c1a88e91db79') in 0.010241 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_01_M.png
+  artifactKey: Guid(c6b58d3d477feed40924dd552026b996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_01_M.png using Guid(c6b58d3d477feed40924dd552026b996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a8ce59e6def256ea5753435ed1501b') in 0.009263 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02.png
+  artifactKey: Guid(057bb6477cd5d0c478a018492b3375ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02.png using Guid(057bb6477cd5d0c478a018492b3375ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b853d6f44521e9960160f1c907353') in 0.010593 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_M.png
+  artifactKey: Guid(c75ae6abcaa2fea44b7f25be53f616a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Metal_Tower/Metal_Tower_Textures/Metal_Tower_02_M.png using Guid(c75ae6abcaa2fea44b7f25be53f616a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ee078b5f9c915078d2a2559e043831') in 0.010670 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.832775 seconds.
+  path: Assets/Towers_PBR/Prefabs/Tower_Stone.prefab
+  artifactKey: Guid(50d7a290120846f43b52df9e868e7890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Prefabs/Tower_Stone.prefab using Guid(50d7a290120846f43b52df9e868e7890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a14cedb61373f2487d80a0fba07c8') in 0.065304 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 18.323113 seconds.
+  path: Assets/Towers_PBR/Skybox/Sky_01Day/1_DN.png
+  artifactKey: Guid(347b0fa4268fc6b45be4ab6a562e7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Skybox/Sky_01Day/1_DN.png using Guid(347b0fa4268fc6b45be4ab6a562e7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a8a8f13d565f72e187dee0f94575bf') in 0.014888 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Towers_PBR/Skybox/Sky_01Day/1_RT.png
+  artifactKey: Guid(3639cf6bcef1f8b4eb5e9e4421050ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Skybox/Sky_01Day/1_RT.png using Guid(3639cf6bcef1f8b4eb5e9e4421050ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80536f9a40141f1067df94651af66c42') in 0.014592 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.924550 seconds.
+  path: Assets/Towers_PBR/Stone_Tower/Materials/Tower_Stone_02.mat
+  artifactKey: Guid(5fa2d15a9296b194090b9dceee38ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Stone_Tower/Materials/Tower_Stone_02.mat using Guid(5fa2d15a9296b194090b9dceee38ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475fccfbf58fa2d51af3ad5c209ef39') in 0.018908 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 9.903388 seconds.
+  path: Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_01_AO.png
+  artifactKey: Guid(4f39cd6125c9c2c4782e501be5c70945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_01_AO.png using Guid(4f39cd6125c9c2c4782e501be5c70945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d34a2ad0afe0e32e838fd3cf48283d') in 0.015760 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_02_N.png
+  artifactKey: Guid(6e2f9c7175249564ab1b5e1500101230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_02_N.png using Guid(6e2f9c7175249564ab1b5e1500101230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a0dfb71e54231deffbb74351298fa0') in 0.022699 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_02_AO.png
+  artifactKey: Guid(22920de25cf1cb84385a2acfb9bced63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Stone_Tower/Tower_Stone_Textures/Tower_Stone_02_AO.png using Guid(22920de25cf1cb84385a2acfb9bced63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c3d15e111dc8f2bf5c176ae91b4e4') in 0.025231 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.998296 seconds.
+  path: Assets/Towers_PBR/Wooden_Tower/Materials/Wooden_Tower_02.mat
+  artifactKey: Guid(4ef9cd3e6811fc946a25c7654f4793f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Towers_PBR/Wooden_Tower/Materials/Wooden_Tower_02.mat using Guid(4ef9cd3e6811fc946a25c7654f4793f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7624df3d9fdee8f2237cd9ae6d32bf') in 0.022941 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 44.563869 seconds.
+  path: Assets/Tow & Luggage Cars/Prefabs/Tow-Car.prefab
+  artifactKey: Guid(707f010aa932e44448dc38da593cc6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tow & Luggage Cars/Prefabs/Tow-Car.prefab using Guid(707f010aa932e44448dc38da593cc6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed2ce8bf83eb8674ca2addc8691aafe') in 0.028965 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 2.137078 seconds.
+  path: Assets/Tow & Luggage Cars/Source/2.fbx
+  artifactKey: Guid(097df6170036646a79e968ee71d8e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tow & Luggage Cars/Source/2.fbx using Guid(097df6170036646a79e968ee71d8e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1eacaa91400394f2d7de8c3e65d7c0') in 0.023660 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tow & Luggage Cars/Source/LuggageCarWheel.fbx
+  artifactKey: Guid(a10d0c47c8c4640c983264d5ed75887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tow & Luggage Cars/Source/LuggageCarWheel.fbx using Guid(a10d0c47c8c4640c983264d5ed75887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b064c4da09810bd5557041796ff67ebd') in 0.022197 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tow & Luggage Cars/Source/Elecwheelsmall.fbx
+  artifactKey: Guid(44a47d56cbeee47debb32ca0473be672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tow & Luggage Cars/Source/Elecwheelsmall.fbx using Guid(44a47d56cbeee47debb32ca0473be672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b85e7b677036192ab25d86e11a81772') in 0.023610 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 357.166721 seconds.
+  path: Assets/Animation/Ch06_nonPBR@Pistol Aim.fbx
+  artifactKey: Guid(fb494f9907b9f4b648788a6e612e0c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 2
+Start importing Assets/Animation/Ch06_nonPBR@Pistol Aim.fbx using Guid(fb494f9907b9f4b648788a6e612e0c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60afd79600a855242b8c362ff6ceaea') in 0.007185 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animation/James@Pistol Idle.fbx
+  artifactKey: Guid(726949b51b8768e47ac9d431382fd894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/James@Pistol Idle.fbx using Guid(726949b51b8768e47ac9d431382fd894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51beb1f04aa74ef8819eaac5c170d2be') in 0.005536 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 5.279247 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab
+  artifactKey: Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab using Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6683600fc4f8653f1253278efe39d047') in 0.038936 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_group-1.prefab
+  artifactKey: Guid(2ebdc32c603c0f74a8df3ff23c55e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_group-1.prefab using Guid(2ebdc32c603c0f74a8df3ff23c55e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54947860238ecffea3376c725d7dd3ab') in 0.014590 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_single.prefab
+  artifactKey: Guid(ecc15abaa2d4963428bdf7fc9eb09410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_single.prefab using Guid(ecc15abaa2d4963428bdf7fc9eb09410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef1729d21af9fc1b7a27aad7e81db6') in 0.014285 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab
+  artifactKey: Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab using Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c7c42c86d8146e1e9b62fb1f3ca4a4') in 0.013245 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.941640 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_barbwire-2.FBX
+  artifactKey: Guid(32337b2ced4e84f419f3bc3231bb7a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_barbwire-2.FBX using Guid(32337b2ced4e84f419f3bc3231bb7a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d69b11865252472827f57276243c2') in 0.033061 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_group-3.FBX
+  artifactKey: Guid(fccc49bf3e108b94c8202230c83d6e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_group-3.FBX using Guid(fccc49bf3e108b94c8202230c83d6e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a391ff6461abce7b32d1edb038e85ea4') in 0.041173 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_single.FBX
+  artifactKey: Guid(73c2999be80b3be4e816d348fea624e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_single.FBX using Guid(73c2999be80b3be4e816d348fea624e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549048fa499666021b795adea0594b8') in 0.037837 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_FenceChained/models/floor-1.FBX
+  artifactKey: Guid(59d11a29ed531044fbe8f24d3fc183d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/floor-1.FBX using Guid(59d11a29ed531044fbe8f24d3fc183d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1423a53b7a3b26872179e2435a21faa') in 0.043112 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.474379 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/metal_fence-1.tga
+  artifactKey: Guid(752d7d5c2778f3a47b36be0aeb798dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/metal_fence-1.tga using Guid(752d7d5c2778f3a47b36be0aeb798dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f706b8ba1d947565d77668c7847cb4') in 0.012219 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/metal_fence-1_specular.tga
+  artifactKey: Guid(2ca69883c541ffa4c9a496e6178c90ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/metal_fence-1_specular.tga using Guid(2ca69883c541ffa4c9a496e6178c90ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ad17eb381510ff11f916dc119c8109') in 0.014272 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/panel-1.tga
+  artifactKey: Guid(e3681018215f6b4449e81c0742db7af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/panel-1.tga using Guid(e3681018215f6b4449e81c0742db7af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54100a5df8f4d90afe874bcd16bce6') in 0.011078 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/panel-1_specular.tga
+  artifactKey: Guid(eb92160a9148f754baa941186d9181e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/panel-1_specular.tga using Guid(eb92160a9148f754baa941186d9181e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2697154f6399f6e471d3f95656c1e85') in 0.009611 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.684780 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/jpgs/metal_fence-1_gloss.jpg
+  artifactKey: Guid(ce1397d408faea249bb1205526b14b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/jpgs/metal_fence-1_gloss.jpg using Guid(ce1397d408faea249bb1205526b14b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f287a94abde8adc907c9fa1fd1bd7d') in 0.021965 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/jpgs/metal_fence-1_specular.jpg
+  artifactKey: Guid(f38fde886c3b83e40a26986e68d40ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/Materials/jpgs/metal_fence-1_specular.jpg using Guid(f38fde886c3b83e40a26986e68d40ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12151497aac61004cd3d339e58522ef9') in 0.014032 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.504253 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_barbwire-3.FBX
+  artifactKey: Guid(7ad6fa53f59b2944dbbdfaf6c7226bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_barbwire-3.FBX using Guid(7ad6fa53f59b2944dbbdfaf6c7226bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6143991c52c3ee79159dbc8ba67eec8c') in 0.652838 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_group-2.FBX
+  artifactKey: Guid(b96fc74c65fd9db40bfde7740f7a9d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_group-2.FBX using Guid(b96fc74c65fd9db40bfde7740f7a9d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb99407b3cffb98b270baa923fd9fe80') in 0.078118 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_FenceChained/models/chainlink_single.FBX
+  artifactKey: Guid(73c2999be80b3be4e816d348fea624e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/models/chainlink_single.FBX using Guid(73c2999be80b3be4e816d348fea624e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7c28e9e3f5e1fc24b3f13d145aec70') in 0.035115 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 3.022368 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_barbwire-3.prefab
+  artifactKey: Guid(a52d55d99a7b23e42b2d401f956a3e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_barbwire-3.prefab using Guid(a52d55d99a7b23e42b2d401f956a3e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaef056e3a60a1f43fb857f8cae6269') in 0.035088 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_group-3.prefab
+  artifactKey: Guid(377c57e9ef0ee0e46a586ad087ef386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_group-3.prefab using Guid(377c57e9ef0ee0e46a586ad087ef386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d12387ab2ca26c616b1b38a0dcaf83') in 0.043522 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab
+  artifactKey: Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab using Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28497a2921ced49aa4ea97263c404c6c') in 0.040819 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.899748 seconds.
+  path: Assets/Assets_FenceChained/screenshots/_small.jpg
+  artifactKey: Guid(a83d75b7d6696f044a0ce14af47d3e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/screenshots/_small.jpg using Guid(a83d75b7d6696f044a0ce14af47d3e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043ba39ccd98653bc79d2791705af823') in 0.010033 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_12-05-10.jpg
+  artifactKey: Guid(e58cf9b4052537e42a4a721bc18d2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_12-05-10.jpg using Guid(e58cf9b4052537e42a4a721bc18d2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fca293063febbb3a46934c185c73b0f') in 0.009882 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_12-05-45.jpg
+  artifactKey: Guid(b8e99b224ebb87247a0536cf8b1858eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_12-05-45.jpg using Guid(b8e99b224ebb87247a0536cf8b1858eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc248fd71b26cd004f2e37a2f545985') in 0.009056 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_21-50-49.jpg
+  artifactKey: Guid(3f98207ac2ff3aa4b8e7e94e8de22458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/screenshots/Unity_2016-10-04_21-50-49.jpg using Guid(3f98207ac2ff3aa4b8e7e94e8de22458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18489b887820f0acdbc72b505aa51041') in 0.008010 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\ilker\Desktop\OutOfTheHood\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <83719566e1474cd8800c02cd178db127>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.0/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.0/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Airport
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.409 seconds
+Domain Reload Profiling:
+	ReloadAssembly (239ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (2ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		LoadAllAssembliesAndSetupDomain (557ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+				TypeCache.Initialize (241ms)
+					TypeCache.ScanAssembly (235ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6860 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (3.6 MB). Loaded Objects now: 7996.
+Memory consumption went from 1.10 GB to 1.09 GB.
+Total: 6.117000 ms (FindLiveObjects: 0.548200 ms CreateObjectMapping: 0.435100 ms MarkObjects: 4.450600 ms  DeleteObjects: 0.681500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Airport
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (187ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (546ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+				TypeCache.Initialize (231ms)
+					TypeCache.ScanAssembly (225ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6858 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (3.6 MB). Loaded Objects now: 8012.
+Memory consumption went from 1.10 GB to 1.09 GB.
+Total: 5.581100 ms (FindLiveObjects: 0.601600 ms CreateObjectMapping: 0.303800 ms MarkObjects: 3.936100 ms  DeleteObjects: 0.738800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ilker\Desktop\OutOfTheHood\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Airport
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (182ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		LoadAllAssembliesAndSetupDomain (550ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (508ms)
+				TypeCache.Initialize (230ms)
+					TypeCache.ScanAssembly (224ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 5.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6858 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (3.6 MB). Loaded Objects now: 8028.
+Memory consumption went from 1.10 GB to 1.09 GB.
+Total: 5.818400 ms (FindLiveObjects: 0.636300 ms CreateObjectMapping: 0.541800 ms MarkObjects: 3.872100 ms  DeleteObjects: 0.767400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1220.445719 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab
+  artifactKey: Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab using Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3becb3bc50e04e9a03ca563a8cc7e40a') in 0.636477 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_barbwire-3.prefab
+  artifactKey: Guid(a52d55d99a7b23e42b2d401f956a3e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_barbwire-3.prefab using Guid(a52d55d99a7b23e42b2d401f956a3e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5230affba6232151faad58de68035cf1') in 0.017149 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets_FenceChained/prefabs/chainlink_group-3.prefab
+  artifactKey: Guid(377c57e9ef0ee0e46a586ad087ef386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_FenceChained/prefabs/chainlink_group-3.prefab using Guid(377c57e9ef0ee0e46a586ad087ef386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b42e14ac1faa8ddb5ba2a867b0005e') in 0.015453 seconds 
+Number of asset objects unloaded after import = 20
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
 AssetImportWorker is now disconnected from the server

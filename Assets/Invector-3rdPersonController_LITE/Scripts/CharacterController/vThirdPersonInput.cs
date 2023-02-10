@@ -210,6 +210,7 @@ namespace Invector.vCharacterController
                 Vector3 aimDir = (mouseWorldPosition - spawnBulletProjectile.position).normalized;
                 Instantiate(pfBulletProjectile,spawnBulletProjectile.position, Quaternion.LookRotation(aimDir, Vector3.up));
                 shotSound.Play();
+                ResetAim();
                 /*aiming = false;
                 cc.AimReset();
                 aimCam.SetActive(false);
@@ -217,16 +218,17 @@ namespace Invector.vCharacterController
                 Debug.Log("AimReset");*/
             }
 
-            if (Input.GetKey("m"))
-            {
-                aiming = false;
-                cc.AimReset();
-                //aimCam.SetActive(false);
-                //aimHUDCrosshair.SetActive(false);
-                sphereCrosshair.SetActive(false);
-                Debug.Log("AimReset");
-            }
 
+        }
+
+        protected virtual void ResetAim()
+        {
+            aiming = false;
+            cc.AimReset();
+            //aimCam.SetActive(false);
+            //aimHUDCrosshair.SetActive(false);
+            sphereCrosshair.SetActive(false);
+            Debug.Log("AimReset");
         }
 
         protected virtual void VisualTarget()

@@ -25,4 +25,4 @@
 # Objectif du jeu
 Le jeu consiste à finir le contrat d'un délinquant habitué du traffic illégal à Los Vincios puis de s'échapper de la ville. Notre protagoniste (James) veut se venger de cette personne qui s'appelle BP, car lors d'un règlement de compte entre délinquant BP était à l'origine d'une balle perdue sur le proche de James.
 
-[Télécharger]([https://www.google.com](https://drive.google.com/drive/folders/1rtDz-jzIa1tjN-eOM41Brb54nq8ZyI-T?usp=sharing))
+Télécharger le build => https://drive.google.com/drive/folders/1rtDz-jzIa1tjN-eOM41Brb54nq8ZyI-T?usp=sharing
